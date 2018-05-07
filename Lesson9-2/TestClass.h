@@ -10,4 +10,6 @@
 
 @interface TestClass : NSObject
 
+@property (nonatomic, strong) NSString* name;
+
 @end

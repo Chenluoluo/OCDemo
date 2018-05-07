@@ -10,4 +10,6 @@
 
 @interface Person : NSObject
 
+@property int age;
+
 @end

@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
+@class Dog;
 @interface Person : NSObject
+
+@property(nonatomic, strong) Dog* dog;
 
 @end

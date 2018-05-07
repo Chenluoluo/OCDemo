@@ -10,4 +10,8 @@
 
 @implementation Person
 
+- (void)dealloc{
+    NSLog(@"Person Delloc");
+}
+
 @end

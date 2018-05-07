@@ -10,4 +10,8 @@
 
 @implementation Person
 
+- (void)dealloc{
+    NSLog(@"%@被销毁了", self);
+}
+
 @end

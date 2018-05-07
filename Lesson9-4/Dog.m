@@ -10,4 +10,8 @@
 
 @implementation Dog
 
+- (void)dealloc{
+    NSLog(@"Dog Delloc");
+}
+
 @end

@@ -7,11 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Person.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        Person* person = [[Person alloc] init];
+        [person setAge:21];
+        NSLog(@"年龄：%d", [person age]);
     }
     return 0;
 }

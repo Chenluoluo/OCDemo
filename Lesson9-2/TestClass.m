@@ -10,4 +10,8 @@
 
 @implementation TestClass
 
+- (void)dealloc{
+    NSLog(@"%@被销毁了", _name);
+}
+
 @end
